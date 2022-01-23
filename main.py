@@ -5,11 +5,11 @@ FPS = 60
 WIN_WIDTH = 2000
 WIN_HEIGHT = 500
 BLACK = (0, 0, 0)
-star = Star(x=231, y=231, brightness=0, period=100, side=200)
+star = Star(x=231, y=231, brightness=0, period=10, side=200)
 
 pygame.init()  ##################
 clock = pygame.time.Clock()  ##################
-sc = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))  ##################
+sc = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))  ##################w
 
 
 while 1:
